@@ -2,7 +2,7 @@ import tweepy
 from os import path
 import time
 from datetime import date
-sdf
+
 with open("secrets.txt", "r") as keys:
     keys = keys.readlines()[0].split(",")
     consumer_key = keys[0]
